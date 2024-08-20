@@ -18,26 +18,34 @@
   </div>
 
   <div id="instrument-detail">
-    <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
+    <div class="detail-image-container">
+      <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
+    </div>
     <h2 class="name">Insert Name Here</h2>
     <h3 class="microphone">Insert Microphone Here</h3>
   </div>
 
-  <h3>Placement:</h3>
+  <h3 style="margin-top: 20px;">Microphone Placement:</h3>
   <p id='placement-display'>
     Insert placement here
   </p>
+  <h3 style="margin-top: 20px;">Audio Sample:</h3>
+  <audio id="audio-player" controls>
+    <source src="" type="audio/wav">
+  </audio>
 
   <form id="new-instrument">
     <h4>Add New Instrument</h4>
-    <label for="new-name">Name: </label>
+    <label for="new-name">Instrument Name: </label>
     <input type="text" name="name" id="new-name" />
     <label for="new-microphone">Microphone: </label>
     <input type="text" name="microphone" id="new-microphone" />
+    <label for="new-placement">Microphone Placement: </label>
+    <textarea name="new-placement" name="new-placement" id="new-placement"></textarea>
     <label for="new-image">Image: </label>
     <input type="text" name="image" id="new-image" />
-    <label for="new-placement">Placement: </label>
-    <textarea name="new-placement" name="new-placement" id="new-placement"></textarea>
+    <label for="new-audio">Audio: </label>
+    <input type="text" name="audio" id="new-audio" />
     <input type="submit" id='submit-button' value="Create" />
   </form>
 

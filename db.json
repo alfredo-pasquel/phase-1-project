@@ -5,42 +5,40 @@
       "name": "Snare Drum",
       "microphone": "Shure SM57",
       "image": "./assets/instruments/snare-drum.jpg",
-      "placement": "Off-axis, 3 inches from the rim pointing to the center"
+      "placement": "Off-axis, 3 inches from the rim pointing to the center of the drum",
+      "audio": "./assets/audio/snare-sample.wav"
     },
     {
       "id": "2",
       "name": "Kick Drum",
       "microphone": "Shure Beta 52a",
       "image": "./assets/instruments/kick-drum.jpg",
-      "placement": "Pointing directly to the sound hole, experiment with proximity and depth"
+      "placement": "Pointing directly to the sound hole, experiment with proximity",
+      "audio": "./assets/audio/kick-sample.wav"
     },
     {
       "id": "3",
       "name": "Acoustic Guitar",
       "microphone": "AKG C414",
       "image": "./assets/instruments/acoustic-guitar.jpg",
-      "placement": "Off-axis to the sound hole, pointing towards it by the middle of the arm"
+      "placement": "Off-axis to the sound hole, pointing towards it by the middle of the arm",
+      "audio": "./assets/audio/guitar-sample.wav"
     },
     {
       "id": "4",
       "name": "Violin",
       "microphone": "DPA 4011",
       "image": "./assets/instruments/violin.jpg",
-      "placement": "3 to 6 feet above the Violin, point to the center of the instrument from the front"
+      "placement": "2 to 4 feet above the Violin, point to the center of the instrument from the front",
+      "audio": "./assets/audio/violin-sample.wav"
     },
     {
       "id": "5",
       "name": "Piano",
       "microphone": "Sanken CU-51",
       "image": "./assets/instruments/piano.jpg",
-      "placement": "Stereo pair, pointing to the action, treble closer than the bass"
-    },
-    {
-      "id": "793d",
-      "name": "Vocals",
-      "microphone": "Neumann u67",
-      "image": "https://media.licdn.com/dms/image/C4E0DAQFQJsKveRcKMA/learning-public-crop_288_512/0/1568669209799?e=2147483647&v=beta&t=jAU7sWRtXox_RMoCr6r0ArDN5nHxVWwlFQmEODCn2QE",
-      "placement": "Slightly above the singer, 1.5 to 3 feet away"
+      "placement": "Stereo pair, pointing slightly behind the action, treble closer than the bass",
+      "audio": "./assets/audio/piano-sample.wav"
     }
   ]
 }
